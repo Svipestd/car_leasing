@@ -30,23 +30,27 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@import "@/assets/scss/main";
+
 .page {
   position: relative;
-}
-.content {
-  max-width: 1440px;
-  margin: 0 auto;
-}
 
-@media (max-width: 1439px) {
   .content {
-    max-width: 975px;
+    max-width: 1440px;
+    margin: 0 auto;
   }
-}
-@media (max-width: 1023px) {
-  .content {
-    max-width: 696px;
+
+  @media (max-width: 1439px) {
+    .content {
+      max-width: 975px;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    .content {
+      max-width: 696px;
+    }
   }
 }
 </style>

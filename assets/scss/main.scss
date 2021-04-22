@@ -1,0 +1,25 @@
+$orangeColor: #ff9514;
+$greyColor: #575757;
+
+@mixin btn {
+  padding: 12px 24px;
+  background: $orangeColor;
+  border: solid 1px $orangeColor;
+  border-radius: 40px;
+  font-family: Gilroy-regular;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 100%;
+  color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #111111;
+    border-color: #111111;
+    color: #fff;
+    transition: background-color linear 0.2s;
+  }
+  &:active {
+    background-color: $greyColor;
+  }
+}

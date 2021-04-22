@@ -6,7 +6,7 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -412,9 +412,6 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0;
 }
 
-
-
-
 @font-face {
   font-family: Gilroy-regular;
   src: url(assets/fonts/Gilroy-Regular.ttf);
@@ -428,41 +425,5 @@ input[type=number]::-webkit-outer-spin-button {
   src: url(assets/fonts/Nekst-Black.otf);
 }
 
-.btn {
-  padding: 12px 24px;
-  background: #ff9514;
-  border: solid 1px #ff9514;
-  border-radius: 20px;
-  font-family: Gilroy-regular;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 100%;
-  color: #fff;
-  cursor: pointer;
-}
-
-.btn-transparent {
-  padding: 12px 24px;
-  background: transparent;
-  border: solid 1px #ff9514;
-  border-radius: 20px;
-  font-family: Gilroy-regular;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 100%;
-  color: #ff9514;
-  cursor: pointer;
-}
-.btn:hover {
-  background-color: #111111;
-  border-color: #111111;
-  border-radius: 40px;
-  transition: background-color linear .2s ;
-}
-.btn-transparent:hover {
-  background-color: #ff9514;
-  color: #fff;
-  transition: background-color linear .2s ;
-}
 
 </style>
